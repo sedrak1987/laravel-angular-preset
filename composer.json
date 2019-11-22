@@ -1,0 +1,25 @@
+{
+    "name": "sedraksargsyan/laravel-angular-preset",
+    "description": "Laravel Angular preset",
+    "keywords": [
+        "laravel",
+        "preset",
+        "angular"
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SedrakSargsyan\\AngularPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SedrakSargsyan\\AngularPreset\\AngularPresetServiceProvider"
+            ]
+        }
+    }
+}
